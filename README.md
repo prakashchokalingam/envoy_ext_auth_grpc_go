@@ -9,7 +9,7 @@ The envoy is configured with two clusters,
 
 ### [go_grpc_filter](https://github.com/prakashchokalingam/envoy_ext_auth_grpc_go/tree/main/clusters/go_grpc_filter)
 
-The filter envoy.filters.http.ext_authz in envoy is used to point at this go grpc cluster. All incoming requests will be forwarded to this cluster. 
+The filter `envoy.filters.http.ext_authz` in envoy is pointed at this go grpc cluster. All incoming requests will be forwarded to this cluster. 
 
 The [Check method](https://github.com/prakashchokalingam/envoy_ext_auth_grpc_go/blob/main/clusters/go_grpc_filter/main.go#L15) will be called during a request; it then adds a custom header to all other requests and rejects requests with the path '/private'.
 
