@@ -1,0 +1,6 @@
+go 1.20
+
+use (
+	./clusters/go_grpc_filter
+	./clusters/go_simple_http
+)
