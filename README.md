@@ -20,7 +20,7 @@ The [Check method](https://github.com/prakashchokalingam/envoy_ext_auth_grpc_go/
 | / private  | 403  | -  | -  |
 
 
-### [use_simple_http](https://github.com/prakashchokalingam/envoy_ext_auth_grpc_go/tree/main/clusters/go_simple_http)
+### [go_simple_http](https://github.com/prakashchokalingam/envoy_ext_auth_grpc_go/tree/main/clusters/go_simple_http)
 
 It is a straightforward Golang HTTP server that merely emits the custom header value `x-custom-header` added via the go_grpc_filter cluster.
 
@@ -32,7 +32,7 @@ It is a straightforward Golang HTTP server that merely emits the custom header v
 envoy -c envoy.yml
 ```
 
-2. start the go_grpc_filter & go_grpc_filter servers by navigating to the cluster root.
+2. start the go_grpc_filter & go_simple_http servers by navigating to the cluster root.
 ```bash
 go run main.go
 ```
