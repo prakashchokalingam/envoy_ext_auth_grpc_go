@@ -1,5 +1,6 @@
 
-<img width="685" alt="Screenshot 2023-06-20 at 10 16 03 PM" src="https://github.com/prakashchokalingam/envoy_ext_auth_grpc_go/assets/5512765/50d69fef-ff26-4085-b104-5da0e5f5ec53">
+<img width="685" alt="Screenshot 2023-06-20 at 10 16 03 PM" src="https://github.com/prakashchokalingam/envoy_ext_auth_grpc_go/assets/5512765/5b00ad6b-4896-4b90-82fa-936b0ec0d6bc">
+
 
 # Example repo to demonstrate Envoy External Authorization with Golang GRPC service
 
